@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="text/JavaScript" href="main.js">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <main>
+        <div class="poll">
+          <h2 class="poll__title"> Best Core Hero</h2>
+          <button class="poll__btn">Lancelot<span class=votes></span></button>
+          <button class="poll__btn">Roger<span class=votes></span></button>
+          <button class="poll__btn">Claude<span class=votes></span></button>
+        </div>
+
+        <div class="poll">
+          <h2 class="poll__title"> Best Sidelane Hero </h2>
+          <button class="poll__btn">Chou<span class=votes></span></button>
+          <button class="poll__btn">Paquito<span class=votes></span></button>
+          <button class="poll__btn">Yu Zhong<span class=votes></span></button>
+        </div>
+   
+    <div class="poll poll--money">
+          <h2 class="poll__title poll__title--money"> Best Tank</h2>
+      <button class="poll__btn">Atlas<span class=votes></span></button>
+          <button class="poll__btn">Khufra<span class=votes></span></button>
+          <button class="poll__btn">Tigreal<span class=votes></span></button>
+        </div>
+   
+     </main>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
